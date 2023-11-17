@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+   <head>
+          <title>STUDENT REGISTRATION FORM</title>   
+</head>
+   <body bgcolor=lightpink>
+       <h1 align="center">STUDENT REGISTRATION FORM</h1>
+		<form action="https://online.tsrtcpass.in/counterstupass.do?prm=hyd">
+		<fieldset>
+		<legend>student details</legend>
+		<table bgcolor=lightblue border=1  align="center">
+		<tr>
+		<td><label for=fname>first name:</td>
+		<td><input type=text name=fname></td>
+	    <td><label for=fname>father name:</td>
+		<td><input type=text name=ftname></td>
+		</tr>
+		<tr>
+		<td><label for=lname>last name:</td>
+		<td><input type=text name=lname></td>
+	    <td><label for=fname>mother name:</td>
+		<td><input type=text name=mname></td>
+		</tr>
+		<tr>
+		<td>date of birth</td>
+		<td><input type="date"></td>
+		<td>gender</td>
+		<td><input type=radio name=gender><label for=gender>male</label>
+		<input type=radio name=gender><label for=gender>female</label></td>
+		<tr>
+		<td>mobile number</td>
+		<td><input type=tel pattern[0-9]></td>
+		<td>email id</td>
+		<td><input type=email></td>
+		</tr>
+		<tr colspan=2>
+		<td><label for=photo>student photo</label></td>
+		<td><input type=file name=photo required></td>
+		</tr>
+		</table>
+		</fieldset>
+		<fieldset>
+		<legend> institution details:</legend>
+		<table  bgcolor=lightblue border=1 align="center">
+		<tr>
+		<td><label for=cname>college name :</label></td>
+		<td><input type=text name=cname></td>
+		<td><label for=cname>branch</label></td>
+		<td><input type=text name=branch></td>
+		</tr>
+		<tr>
+		<td><label for=district>district:</label></td>
+		<td><input list="district">
+		<datalist id="district">
+		<option value="karimnagar">
+		<option value="warangal">
+		<option value="naldonda">
+		<option value="medak">
+		</datalist>
+		<td><label for=mandal>mandal:</label></td>
+		<td><input type=text name=mandal></td>
+		</tr>
+		<tr colspan="2">
+	    <td><label for=cname>admission number</label></td>
+		<td><input type=text name=adno></td>
+		<td></td></tr>
+		<tr>
+		<td><label for=district>institution address</label></td>
+		<td><textarea cols=21  name=id></textarea></td>
+		</tr>
+		<tr>
+		<td>documents required:</td>
+		<td><input type=checkbox name=doc><label for=doc>ssc memo<label></td>
+		</tr>
+		<tr><td></td>
+		<td>
+		<input type=checkbox name=doc><label for=doc>inter memo<label></td>
+		</tr>
+		<tr><td></td>
+		<td><input type=checkbox name=doc><label for=doc>degree memo<label></td>
+		</tr>
+		</table>
+		</fieldset>
+		<fieldset>
+		<legend>login details</legend>
+		<table  bgcolor=lightblue 
+		border=1 align=center>
+		<tr>
+		<td><label for=login>create login(id)</td>
+		<td><input type=text name=login></td>
+		</tr>
+		<tr>
+		<td><label for=login>create password</td>
+		<td><input type=password name=pass></td>
+		</tr>
+		<tr>
+		<td><label for=login>re enter password</td>
+		<td><input type=password name=pass></td>
+		</tr>
+		<table>
+		</fieldset>
+		<table align=center>
+		<tr  colspan=2>
+		<td><input type=reset></td>
+		<td><input type=submit value=register></td>
+		</tr>
+		</table>
+		</form>
+		</body>
+</html>
+		

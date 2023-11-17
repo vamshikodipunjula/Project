@@ -1,0 +1,89 @@
+<html>
+    <head>
+ <title>FLEX</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Crimson+Text&family=Josefin+Sans:wght@100;400&family=Lilita+One&display=swap" rel="stylesheet"><script src="https://kit.fontawesome.com/1022f66b3a.js" crossorigin="anonymous"></script>
+ <script src="https://kit.fontawesome.com/1022f66b3a.js" crossorigin="anonymous"></script>
+ <style>
+     .parent{
+  background-color:yellow;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  align-items:center;
+  height:400px;
+  }
+  .child{
+  background-color:red;
+  text-transform:capitalize;
+  font-family: 'Lilita One', cursive;
+  font-size:60px;
+  padding:40px;
+  margin:80px;
+  border-radius:30px;
+  
+  }
+  form{
+  background-color:red;
+  text-transform:capitalize;
+  font-family: 'Lilita One', cursive;
+  font-size:60px;
+  padding:40px;
+  }
+  #one{
+  order:0;
+  flex-grow:2;
+  
+  }
+  #two{
+  order:2;
+  flex-grow:2;
+  
+  }
+  #three{
+  order:3;
+  flex-grow:2;
+  
+  }
+  #four{
+  order:4;
+  flex-grow:2;
+  align-self:flex-stretch;
+  
+  }
+  #five{
+  order:5;
+  flex-grow:2;
+  
+  }
+  #six{
+  order:1;
+  flex-grow:30;
+  
+  }
+  
+ </style>
+ </head>
+ <body>
+   <div class="parent">
+   <h1 id="one" class="child"><i class="fa-solid fa-house" style="color: #1869f7;"></i><a href=#>HOME</a></h1>
+   <h1 id="two" class="child"><i class="fa-solid fa-info"></i><a href=#>ABOUT US</a></h1>
+   <h1 id="three" class="child"><i class="fa-solid fa-phone fa-shake"></i><a href=#>CONTACT US</a></h1>
+   <h1 id="four" class="child"><i class="fa-solid fa-keyboard"></i><a href=#>COURSES</a></h1>
+   <h1 id="five" class="child"><i class="fa-solid fa-user-graduate" style="color: #1467f5;"></i><a href=#>CAREERS</a></h1>
+   <h1 id="six" class="child">
+   <form >
+   <input  value="search"list="search">
+   <datalist id="search">
+   <option value="JAVA">
+   <option value="PYTHON">
+   <option value="SQL">
+   <option value="CSS">
+   <option value="HTML">
+            </datalist>
+   </form>
+  </div>
+ </body>
+</html>

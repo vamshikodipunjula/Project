@@ -1,0 +1,17 @@
+<html>
+      <title>code hub</title>
+	 <body>
+	  <h1 align="center">codeing hub</h1>
+	  <p><span style="background-colour:red">way to teach</P>
+	  <p><span style="colour:green">core java</P>
+	  <pre>java script</pre> 
+      <p>html,<div>css</div><p>
+      <center><img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"alt="photo not found"width="300"></center>
+      <a href=https://codinghub.co.in/" target="_blank"> codeing hub website</a> 
+      <marquee behavior="scroll"direction="right">hi rakesh you.</marquee>
+	  <marquee behavior="scroll"scrollamount="100"scrolldelay="500">iam a bad boy</marquee>
+      <marquee behavior="alternate"direction=up scrollamount=30 height=100px>hello all</maequee>	  
+     </body>
+ </html>	 
+	     
+

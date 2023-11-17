@@ -1,0 +1,12 @@
+<html>
+     <head>
+	 </head>
+	 <body>
+	           <a hrefhttps://www.javatpoint.com/html-tutorial">click on link</a> 
+			                                                                 
+                <span>    style="background colour:lightblue">this is inline element</span>
+                   <p> this will take width of text only</p>
+     </body>
+     </html>	 
+	     
+		 
